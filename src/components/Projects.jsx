@@ -19,7 +19,7 @@ export const Project = () => {
       <div className="flex flex-col gap-10 md:flex-row md:justify-around md:gap-8 w-full max-w-4xl">
         <div className="flex flex-col items-center">
           <a
-            href="https://mern-project-six-chi.vercel.app/"
+            href="https://mern-project-six-chi.vercel.app/sign-up"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-amber-500 to-pink-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 flex items-center gap-4"
