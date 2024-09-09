@@ -1,4 +1,4 @@
-import { FaLightbulb, FaClipboardList } from 'react-icons/fa';
+import { FaLightbulb, FaClipboardList, FaCreditCard } from 'react-icons/fa';
 
 export const Project = () => {
   return (
@@ -16,7 +16,7 @@ export const Project = () => {
 
       <h1 className="text-5xl font-bold mb-8">My Projects</h1>
 
-      <div className="flex flex-col gap-10 md:flex-row md:justify-around md:gap-8 w-full max-w-4xl">
+      <div className="flex flex-col gap-10 md:flex-row md:justify-between md:gap-8 w-full max-w-4xl">
         <div className="flex flex-col items-center">
           <a
             href="https://mern-project-tau-six.vercel.app/sign-up"
@@ -44,6 +44,21 @@ export const Project = () => {
           </a>
           <p className="mt-4 text-center max-w-xs">
             A sleek and intuitive todo list application designed to help you stay organized and productive. It features task management, priority settings, and a responsive design to keep you on track, whether you're on desktop or mobile.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <a
+            href="https://pay-tm-frontend-taupe.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-amber-500 to-pink-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 flex items-center gap-4"
+          >
+            <FaCreditCard size={40} className="text-white" />
+            <span>Pay-TM</span>
+          </a>
+          <p className="mt-4 text-center max-w-xs">
+            A comprehensive payment gateway solution designed to offer secure and efficient transactions. It features user-friendly payment processing, detailed transaction records, and seamless integration with various payment methods.
           </p>
         </div>
       </div>
