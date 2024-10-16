@@ -2,18 +2,16 @@ import { FaLaptopCode, FaServer, FaCloud, FaProjectDiagram } from 'react-icons/f
 
 export const About = () => {
   return (
-    <div id='about' className="bg-customDark text-white p-8 flex flex-col items-center">
+    <div id='about' className="bg-customDark text-white p-8 flex flex-col items-center text-center">
       <h1 className="text-6xl font-bold mb-6">About Me</h1>
       <div className="max-w-3xl text-center mb-10">
-        <p className="text-xs leading-8">
-          Hey there! I’m Abdul Baqui, a passionate and dedicated Full Stack Developer who thrives on building dynamic, high-performance web applications.
-          With a solid foundation in both front-end and back-end development, I’m always excited to create user-friendly, scalable solutions.
-          Whether it’s crafting a beautiful interface or building a powerful API, I love to bring ideas to life through code.
+        <p className="text-xl leading-8">
+          Hi, I’m Abdul Baqui, a Full Stack Developer passionate about building web applications. I have experience in both front-end and back-end development, and I enjoy creating user-friendly and efficient solutions.
         </p>
-        <p className="text-xs leading-8 mt-4">
-          I believe that technology should not only function efficiently but also provide a seamless and enjoyable experience for users.
-          Constantly learning and evolving, I stay on top of the latest trends and tools in the industry to ensure the best outcomes for every project.
+        <p className="text-xl leading-8 mt-4">
+         I'm always learning and staying updated with the latest tools to deliver the best results in every project.
         </p>
+
       </div>
       <div className="mt-1">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-amber-500">
@@ -47,10 +45,11 @@ export const About = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Node.js, Express.js, Next.js</li>
+              <li>Serverless Backend, Hono Cloudflare</li>
               <li>Database Management</li>
               <li>(NoSQL, MongoDB, MySQL, PostgreSQL, Prisma)</li>
               <li>RESTful API</li>
-              <li>Authentication & Authorization (JWT, OAuth)</li>
+              <li>Authentication & Authorization (JWT, NextAuth, OAuth)</li>
               <li>Server-Side Logic and Optimization</li>
             </ul>
           </div>
@@ -61,7 +60,7 @@ export const About = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Git & Version Control (GitHub, GitLab)</li>
-              <li>CI/CD Pipelines (GitHub Actions, Jenkins)</li>
+              <li>CI/CD Pipelines (GitHub Actions)</li>
               <li>Cloud Deployment (AWS, Vercel)</li>
               <li>Docker & Kubernetes</li>
               <li>Performance Monitoring & Debugging</li>

@@ -10,8 +10,8 @@ function App() {
     <div className="bg-customDark text-white min-h-screen">
       <Navbar/>
       <Hero/>
-      <About/>
       <Project/>
+      <About/>
       <Contact/>
     </div>
   )
